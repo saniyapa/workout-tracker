@@ -1,93 +1,100 @@
-#Health Challenge Tracker
+# Health Challenge Tracker
 
 Health Challenge Tracker is a single-page application (SPA) developed in Angular 17, designed to track user workouts and display them in a user-friendly interface.
 
-Introduction
+## Introduction
 
 Workout Tracker is an Angular application that allows users to log their workouts. Users can input their names, select workout types, and specify workout durations. The application also provides features for searching and filtering workouts, as well as pagination for easy navigation through the list of users.
 
-Features
+## Features
 
-Workout Form: Allows users to input their name, workout type, and workout minutes.
+- **Workout Form**: Allows users to input their name, workout type, and workout minutes.
+- **Workout List**: Displays a grid of user workouts with options for search, filtering by workout type, and pagination.
+- **Optional Chart Feature**: Visualizes workout progress using charts.
+- **Responsive Design**: Ensures optimal viewing across a range of devices.
+- **Data Storage**: Stores workout data in local storage.
 
-Workout List: Displays a grid of user workouts with options for search, filtering by workout type, and pagination.
+## Technologies Used
 
-Optional Chart Feature: Visualizes workout progress using charts.
+- **Angular 17**: Front-end framework for building robust SPAs.
+- **Tailwind CSS**: Provides utility-first CSS classes for rapid UI development.
+- **ngx-pagination**: Library for implementing pagination in Angular applications.
+- **ng2-charts**: Integration for displaying charts using Chart.js within Angular.
 
-Responsive Design: Ensures optimal viewing across a range of devices.
-
-Data Storage: Stores workout data in local storage.
-
-Technologies Used
-
-Angular 17: Front-end framework for building robust SPAs.
-
-Tailwind CSS: Provides utility-first CSS classes for rapid UI development.
-
-
-ngx-pagination: Library for implementing pagination in Angular applications.
-
-ng2-charts: Integration for displaying charts using Chart.js within Angular.
-
-Getting Started
+## Getting Started
 
 Follow these instructions to get a local copy of the project up and running on your machine.
 
-Prerequisites
+### Prerequisites
 
-Visual Studio Code - Code Editing, Git Bash - Git command line , Node.js and npm installed on your development machine.
-Installation
+- Visual Studio Code - Code Editing, Git Bash - Git command line , Node.js and npm installed on your development machine.
 
-Development Server
+### Installation
 
-Run the application locally: ng serve
+1. Clone the repository:
 
-Build
+   ```
+   git clone https://github.com/itsindrajput/health-tracker.git
+   cd health-tracker
+   ```
 
-To build the project for production: ng build --prod 
+2. Install dependencies:
+   `npm install`
 
-Testing
+### Development Server
 
-Run ng test to execute the unit tests via Karma. Unit tests for the components are written using Angular's testing utilities and Jasmine. You can run the tests using the following command:
+- Run the application locally:
+  `ng serve`
 
-Test Cases for WorkoutFormComponent
+### Build
 
-Component Creation: Checks if the component is created successfully.
+- To build the project for production:
+  `ng build --prod
+`
 
-Form Validity: Tests the form's initial invalid state and its validity when all fields are filled.
+## Testing
 
-Form Submission: Ensures that the workout data is stored in local storage and that the router navigates to the workout list after form submission.
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Unit tests for the components are written using Angular's testing utilities and Jasmine. You can run the tests using the following command:
 
-Running Tests
+### Test Cases for WorkoutFormComponent
 
-Run unit tests: ng test
+- Component Creation: Checks if the component is created successfully.
+- Form Validity: Tests the form's initial invalid state and its validity when all fields are filled.
+- Form Submission: Ensures that the workout data is stored in local storage and that the router navigates to the workout list after form submission.
 
-Run end-to-end tests: ng e2e
+### Running Tests
 
-Running end-to-end tests
+- Run unit tests:
+  `ng test`
+- Run end-to-end tests:
+  `ng e2e`
 
-Run ng e2e to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Running end-to-end tests
 
-Development server
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-I have Deploy the application on a hosting platform like: github
+## Development server
 
-🌎 https://github.com/saniyapa/workout-tracker
+- I have Deploy the application on a hosting platform like: Netlify
+- 🌎 https://fyle-health-tracker.netlify.app/
 
-You can also Run ng serve for a dev server. Navigate to http://localhost:4200/. The application will automatically reload if you change any of the source files.
+- You can also Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-Usage
+## Usage
 
-Navigate to the Add Workout page.
+- Navigate to the Add Workout page.
+- Fill out the form with the user name, workout type, and workout duration.
+- Submit the form to add the workout.
+- Navigate to the Workout List page to view the list of users and their workouts.
+- Use the search bar to find users by name.
+- Use the filter option to filter users by workout type.
+- Use pagination to navigate through the list if there are more than 5 users.
 
-Fill out the form with the user name, workout type, and workout duration.
+## Additional Information
 
-Submit the form to add the workout.
+Author: Rishabh Kumar Singh <br />
+License: This project is licensed under the MIT License. See the LICENSE file for details.<br />
+Contact: itsindrajput@gmail.com
 
-Navigate to the Workout List page to view the list of users and their workouts.
-
-Use the search bar to find users by name.
-
-Use the filter option to filter users by workout type.
-
-Use pagination to navigate through the list if there are more than 5 users.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
