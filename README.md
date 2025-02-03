@@ -29,14 +29,7 @@ Follow these instructions to get a local copy of the project up and running on y
 
 - Visual Studio Code - Code Editing, Git Bash - Git command line , Node.js and npm installed on your development machine.
 
-### Installation
 
-1. Clone the repository:
-
-   ```
-   git clone https://github.com/itsindrajput/health-tracker.git
-   cd health-tracker
-   ```
 
 2. Install dependencies:
    `npm install`
@@ -74,10 +67,6 @@ Unit tests for the components are written using Angular's testing utilities and 
 
 Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Development server
-
-- I have Deploy the application on a hosting platform like: Netlify
-- 🌎 https://fyle-health-tracker.netlify.app/
 
 - You can also Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
@@ -91,10 +80,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 - Use the filter option to filter users by workout type.
 - Use pagination to navigate through the list if there are more than 5 users.
 
-## Additional Information
 
-Author: Rishabh Kumar Singh <br />
-License: This project is licensed under the MIT License. See the LICENSE file for details.<br />
-Contact: itsindrajput@gmail.com
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
